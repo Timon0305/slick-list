@@ -1,6 +1,11 @@
+
 .App {
   text-align: center;
 }
+body {
+  background-color: grey;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +41,21 @@
     transform: rotate(360deg);
   }
 }
+.slick-next {
+  right: 30% !important;
+}
+.slick-prev {
+  left: 30% !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.slick-list {
+  width: 40% !important;
+  margin: auto !important;
+  margin-top: 10% !important;
+  border: 3px solid red;
+  border-radius: 8px;
+}
+
